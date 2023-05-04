@@ -1,12 +1,13 @@
 import { useState } from "react";
 import "./App.css";
-import Msg from "./Msg";
-import List from "./components/ListGroup";
+import Alert from "./components/Alert";
 
 function App() {
   return (
     <div>
-      <List></List>
+      <Alert>
+        hello <span>world</span>
+      </Alert>
     </div>
   );
 }
